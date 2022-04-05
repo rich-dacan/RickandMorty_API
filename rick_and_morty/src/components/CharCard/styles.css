@@ -1,0 +1,41 @@
+li 
+{
+  list-style: none;
+  text-align: center;
+  
+}
+
+.card__container
+{
+
+  width: 350px;
+  height: 500px;
+}
+
+li p {
+  max-width: 350px;
+}
+
+li img 
+{
+  padding: 15px;
+  background-color: #42B4CA;
+  border: 5px solid #BFDE42;
+  border-radius: 10px;
+  margin-top: 50px;
+
+  width: 150px;
+}
+
+.dead
+{
+  background-color: #770000
+}
+
+@media screen and (min-width:700px){
+  
+  li img
+  {
+    width: 300px;
+  }
+}
