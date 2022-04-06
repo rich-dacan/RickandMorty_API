@@ -1,9 +1,16 @@
 li 
 {
+  padding: 15px;
   list-style: none;
   text-align: center;
+  transition: all ease .7s;
   
 }
+  li:hover
+  {
+    box-shadow: 0px 0px 30px #BFDE42;
+    cursor: pointer;
+  }
 
 .card__container
 {
