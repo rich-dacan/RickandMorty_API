@@ -1,7 +1,7 @@
 import './styles.css';
 
 const CharCard = ({name, image, status}) => {
-  console.log(status)
+
   return (
 
 
